@@ -21,8 +21,8 @@ Inorder to get a trully correct solution i turn to [neetcode](https://www.youtub
 
 ### Neetcode Solution
 
-Below is a diagram to visualize the structure of flags in a matrix.
-![Diagram of matrix](/Daily/screenshots/73/diagram.png)
+Below is a diagram to visualize the structure of flags in a matrix.  
+![Diagram of matrix](/Daily/screenshots/73/diagram.png)  
 
 ### Step-by-Step Breakdown
 
