@@ -8,7 +8,7 @@ Given an m x n integer matrix matrix, if an element is 0, set its entire row and
 
 You must do it in place.
 
-![Example](/Daily/screenshots/73/examples.png)
+![Example](../Daily/screenshots/73/examples.png)
 
 ## Initial Thought Process & Brute Force
 Make a copy of the original Array. We then iterate the Matrix using the copy of the array. We do this to keep track of digits. Lets say i encounter a 0 at matrix[m][n] and i set the entire row and column as 0. After traversing the matrix further we encounter a 0 when it should have been say a 1. We are supposed to change the matrix only at the end. By iterating through the copy and making changes to only the original we not only avoid the mistake highlighted earlier but also edit the matrix in place as per question. However this solution requires a 0(1) space complexity. The current solution is o(n).
